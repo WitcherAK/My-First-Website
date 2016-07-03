@@ -1,0 +1,147 @@
+body
+	{
+		color:white;
+		background-color:black;
+	}
+
+#info
+{
+	margin-top:10px;
+	padding:15px;
+	width:970px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#square3
+{
+	width:137px;
+	height:180px;
+	float: left;
+	padding: 5px;
+}
+	
+#dane
+{
+	
+	padding:5px;
+	float: right;
+}
+	
+
+#wyksztalcenie
+{
+	margin-top:10px;
+	padding:15px;
+	width:970px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#doswiadczenie
+{
+	margin-top:10px;
+	padding:15px;
+	width:970px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#jezykiobce
+{
+	padding:15px;
+	width:970px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top:10px;
+	
+}
+
+#certyfikaty
+{
+	padding:15px;
+	width:970px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top:10px;
+	
+}
+
+#umiejetnosci
+{
+	padding:15px;
+	width:970px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top:10px;	
+}
+
+#kursy
+{
+	padding:15px;
+	width:970px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top:10px;	
+}
+
+.podumiejetnosci
+{
+	float:left;
+	width:200px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	margin-top:10px;
+}
+.podcechy
+{
+	float:left;
+	width:700px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top:10px;
+	
+}
+#projekty
+{
+	padding:15px;
+	width:970px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top:10px;
+	
+}
+#cechyosobiste
+{
+	padding:15px;
+	width:970px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top:10px;
+	
+}
+
+#zainteresowania
+{
+	padding:15px;
+	width:970px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top:10px;
+}
+
+#deklaracja
+{
+	padding:15px;
+	width:970px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top:10px;
+}
+
+.tytul
+{
+	font-size:17px;
+	font-weight: bold;
+	color:white;
+	margin-bottom:10px;
+	border-bottom: 1px solid  white;
+	
+}
+
+@media all and (min-width:500px) and (max-width:1000px) {
+  #info,#doswiadczenie,#jezykiobce,#wyksztalcenie, #doswiadczenie ,#jezykiobce,#certyfikaty ,#umiejetnosci ,#kursy ,#projekty,#cechyosobiste ,#zainteresowania ,#deklaracja{
+    float:none;
+    width:auto;
+    margin:15px;
+  }
+}

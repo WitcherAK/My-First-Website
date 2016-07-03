@@ -1,0 +1,368 @@
+@CHARSET "UTF-8";
+@CHARSET "UTF-8";
+	
+	  
+	body
+	{
+		background-color:black;
+	}
+	
+	
+
+	
+	/* lewe menu*/
+
+		#boczna
+	{
+		  position:fixed;		  
+		  left:0px;
+		  top:100px;
+		  text-align:center;
+	}
+	
+	#user2
+	{
+		position:relative;	
+		width:40px;
+		padding:10px;
+		background-color:#3095d3;
+	}
+	#user2:hover
+	{
+		background-color: #1073c2;
+	}
+	
+	#laptop2
+	{
+		position:relative;			
+	    width:40px;
+		padding:10px;
+		background-color:#ff9911;
+	}
+	#laptop2:hover
+	{
+		background-color: #dd7700;
+	}
+	
+	#cv2
+	{
+		position:relative;	
+		width:40px;
+		padding:10px;
+		background-color:#666666;
+	}
+	#cv2:hover
+	{
+		background-color: #444444;
+	}
+	
+	#kontakt2
+	{
+		position:relative;	
+		width:40px;
+		padding:10px;
+		background-color:#93c748;
+	}
+	#kontakt2:hover
+	{
+		background-color: #71a526;
+	}
+	
+	#fb2
+	{
+		position:relative;	
+		width:40px;
+		padding:10px;
+		background-color:#4668b3 ;
+	}
+	#fb2:hover
+	{
+		background-color: #244691;
+	}
+	
+	#linkedin2
+	{
+		position:relative;	
+		width:40px;
+		padding:10px;
+		background-color:#007bb5 ;
+	}
+	#linkedin2:hover
+	{
+		background-color: #005993;
+	}
+	
+	
+	/* własciwa strona*/
+	#container /* komentarz */
+	{
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		padding:50px;
+		padding-top:10px;
+		padding-bottom:10px;
+		
+	} 
+	.rectangle
+	{
+		width:960px;
+		margin:20px;
+		text-align:center;
+		color:white;
+	}
+	.square
+	{
+		width:50%;
+		float: left;	
+	}
+	.square2
+	{
+		background-color: #666666;
+		margin-left:1px;
+		width:137px;
+		height:180px;
+		float: right;
+		padding: 5px
+	}
+	#logo
+	{
+		float:left;
+		font-family: 'Josefin Sans', sans-serif;
+		font-size:50px;
+		width: 600px;
+		text-align: left;
+		padding: 15px;
+		padding-left: 30px;
+	}
+	#clock
+	{
+		float:left;
+		font-family: 'Josefin Sans', sans-serif;
+		font-size:50px;
+		color:white;
+		text-align: center;
+		padding: 15px;
+	}
+	.title1
+	{
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: bold;
+		margin:10px;
+		width:230px;
+		height:142px;
+		background-color: #3095d3;
+		float: left;
+		text-align:center;
+		color:white;
+		transition-duration:1s; /* 1-ustawia na okragle okienka w czasie jednej sekundy*/
+	}
+	.title1:hover
+	{
+		background-color: #1073b1;
+		border-radius:15%;/*2-ustawia na okragle okienka w czasie jednej sekundy*/
+	
+	}
+	.title1ipol
+	{
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: bold;
+		margin:10px;
+		width:230px;
+		height:142px;
+		background-color: #ff9911;
+		float: left;
+		text-align:center;
+		color:white;
+		transition-duration:1s;
+	}
+	.title1ipol:hover
+	{
+		background-color: #dd7700;
+		border-radius:15%;
+	}
+
+	.title2
+	{
+		margin:10px;
+		width:230px;
+		height:142px;
+		background-color: #666666;
+		float: left;
+		text-align:center;
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: bold;
+		color:white;
+		transition-duration:1s;
+	}
+	.title2:hover
+	{
+		background-color: #444444;
+		border-radius:15%;
+	}
+	.title3
+	{
+		margin:10px;
+		width:230px;
+		height:142px;
+		background-color: #93c748;
+		float: left;
+		text-align:center;
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: bold;
+		color:white;
+		transition-duration:1s;
+	}
+	.title3:hover
+	{
+		background-color: #71a526;
+		border-radius:15%;
+	}
+	.title4
+	{
+		margin:10px;
+		width:410px;
+		height:72px;
+		background-color: #ee5a32;
+		text-align:center;
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: bold;
+		padding:35px;
+		line-height:150%;
+		color:white;
+
+	}
+	.title5
+	{
+		margin:10px;
+		width:420px;
+		height:244px;
+		background-color: #666666;
+		text-align:justify;
+		padding:30px;
+		font-family: 'Josefin Sans', sans-serif;
+		color:white;
+		
+	}
+	.fb
+	{
+		margin:10px;
+		width:230px;
+		height:142px;
+		background-color: #4668b3;
+		float: left;
+		text-align:center;
+		color:white;
+		transition-duration:1s;
+	}
+	.fb:hover
+	{
+		background-color: #244691;
+		border-radius:15%;
+	}
+	.linkedin
+	{
+		margin:10px;
+		width:230px;
+		height:142px;
+		background-color: #007bb5;
+		float: left;
+		text-align:center;
+		color:white;
+		transition-duration:1s;
+	}
+	.linkedin:hover
+	{
+		background-color: #005993;
+		border-radius:15%;
+	}
+	
+	#flaga1
+	{
+		width:250px;
+		margin-right:50px;
+		margin-left:180px;
+		margin-bottom:150px;
+		margin-top:140px;
+		height:156px;
+		float: left;
+		cursor:pointer;
+		opacity: 0.8;
+		
+	}
+	
+	#flaga1:hover{
+		opacity: 1;
+	}
+	
+	#flaga2
+	{
+		width:250px;
+		margin-left:50px;
+		margin-right:180px;
+		margin-bottom:150px;
+		margin-top:140px;
+		height:156px;
+		float:left;
+		cursor:pointer;
+		opacity: 0.8;
+	}
+	
+	#flaga2:hover{
+		opacity: 1;
+	}
+	#wynik1
+	{
+		color:white;
+		text-align:center;
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	
+	#wynik2
+	{
+		color:white;
+		text-align:center;
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	a.tilelink
+	{
+		color:#ffffff;
+		text-decoration:none;
+		display:block;
+		width:230px;
+		height:142px;
+	}
+	a.tilelink2
+	{
+		color:#ffffff;
+		text-decoration:none;
+	}
+	
+	
+		@media all and  (max-width:1000px) {
+  .square,#logo,#clock {
+    float:none;
+    width:auto;
+    margin:15px;
+  }
+  #container
+  {
+	  width:540px;
+  }
+  .rectangle
+  {
+	  width:500px;
+  }
+  #flaga2,#flaga1
+  {
+	float:none;
+    width:auto;
+	
+    margin:50px;
+  }
+	}
+
